@@ -1,7 +1,3 @@
-/*
- * File: 3-quick_sort.c
- */
-
 #include "sort.h"
 
 void swap_ints(int *a, int *b);
@@ -96,4 +92,4 @@ void quick_sort(int *array, size_t size)
 		return;
 
 	lomuto_sort(array, size, 0, size - 1);
-}i
+}
